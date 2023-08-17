@@ -1,0 +1,189 @@
+*{
+    padding: 0;margin: 0;
+}
+h1:hover{
+    color:red !important;
+}
+html{
+    min-height:100%;
+    max-height:100vh;
+    max-width:100vw;
+    overflow: hidden;
+    position: relative;
+}
+header,nav{
+    width: 100vw;
+    height:10vh;
+    background-image: url("assets/back1.jpg");
+    /* filter: grayscale(100%); */
+    color:white;
+}
+body{
+    min-height:100vh;
+}
+
+.btn:hover{
+    zoom: 105%;
+    background-color: rgb(0, 0, 83);
+}
+
+.container{
+    height:70vh;
+    width:100vw;
+    background-image: url("assets/back1.jpg");
+    background-blend-mode: exclusion;
+    background-color: rgb(0, 6, 20);
+    background-size: cover;
+    overflow: hidden;
+    border-top:2px solid white;
+}
+main{
+    overflow: hidden;
+}
+.start{
+    font-size: larger !important;
+    font-weight: bolder !important;
+    padding:5% !important; 
+}
+.status{
+    /* background-color: black; */
+    background-image: url("assets/back2.jpg");
+    visibility: hidden;
+    background-blend-mode: exclusion;
+    background-color: rgb(0, 6, 20);
+    background-size: cover;
+    color:white;
+    display: block;
+    padding: 1% 2%;
+    position:absolute;
+    top:10%;
+    margin:0 auto;
+}
+.screens{
+    left:15%;
+    top:20%;
+}
+.screen{
+    position:absolute;
+    top:20%;
+    border-radius: 10%;
+    color:white;
+    height:50vh;width:70vw; 
+    opacity:0;
+    pointer-events: none;
+    font-size: larger;
+    background-image: url("assets/back2.jpg");
+    background-size: cover;
+}  
+.textS{
+    font-size: larger !important;
+}
+.screen2 .options{
+
+    min-width: 100% !important;
+}
+
+.screen6 .options{
+    margin-bottom:0% !important;
+    margin-top:1% !important;
+    padding:2% 10% !important;
+    
+    min-width: 50% !important;
+}
+.screen4 .options,.screen2 .options
+{
+    margin-bottom:2% !important;
+    padding:4% 10% !important;
+    min-width: 71% !important;
+}
+.screen3 .options{
+    margin-bottom:2% !important;
+    padding:3% 10% !important;
+    min-width: 40% !important;
+}
+.screen6 .textS{
+    margin-top:6%;
+}
+
+.options{
+    padding:2% 5%;
+    margin:5px auto;
+    min-width:30%;
+    width:fit-content;
+    color:white;
+    background-color: rgba(255, 255, 255, 0);
+    border:2px solid white;
+}
+.options:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 83);
+}
+.exit,.next{
+    padding:15% 20% !important;
+    margin-left:15% !important;
+}
+.exit{
+    background-color: rgb(255, 5, 5) !important;
+}
+.next{
+    background-color: white !important;color: rgb(1, 46, 151) !important;
+    border-color: rgb(1, 46, 151) !important;
+}
+.exit:hover,.next:hover{
+    zoom:100% !important;
+    filter: brightness(0.5);
+}
+.textS{
+    padding:0 5% !important;
+}
+
+.showScore{
+    padding:1% !important;
+    background-color: rgb(0, 81, 255) !important;
+    color:white;
+}
+.shorScore:hover{
+    zoom:100% !important;
+}
+.replay{
+    padding:5% !important;
+    border-radius: 30% !important;
+    font-size: larger !important;
+    font-weight: bolder !important;
+    Background-color: rgb(3, 27, 92) !important;
+    border:2px solid white !important;
+    color: white !important;
+}
+.replay:hover{
+    cursor: pointer;
+}
+
+footer{
+    color:white;
+    width:100vw;
+    height:20vh;
+    background-image: url("assets/back1.jpg");
+    filter: grayscale(100%);
+    position: absolute !important;
+    bottom:0;
+}
+footer>p{
+    padding: 0 5%;
+}
+.instruct{
+    padding:1% 2% !important;
+    background-color: rgb(37, 0, 138) !important;
+    color: rgb(255, 255, 255) !important;
+    border:0 !important;
+
+}
+.instruct:hover{
+    background-color: rgb(22, 0, 82) !important;
+}
+.instructions{
+    background-color: rgb(255, 0, 0) !important;
+    color:rgb(255, 255, 255) !important;
+    font-size:2.3vw !important;
+    font-weight: bolder !important;
+    padding:5% !important; 
+}
